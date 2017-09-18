@@ -1,0 +1,138 @@
+html,
+body {
+    max-width: 100%;
+}
+a {
+    color: #da3a2d;
+}
+hr {
+    color: "#CE1F24"
+}
+img.logo {
+    position: absolute;
+    height: auto;
+    width: 8%;
+}
+input[type="button"].manuallogout {
+
+}
+
+/* ** Section0 CSS ** */
+
+#Section0 p {
+    padding: 10px 20%;
+}
+#Section0 p.lettered {
+    padding-left: 22%;
+}
+#Section0 p.centered.small-italics {
+    padding: 75px 16% 10px;
+    text-align: center;
+}
+#Section0 p.small-italics {
+    padding-top: 0px;
+    padding-bottom: 18px;
+    font-size: 13px;
+    font-style: italic;
+}
+#Section0 p.contents {
+    padding-bottom: 0;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Section0 a {
+    color: inherit;
+    text-decoration: none;
+}
+#Section1 p {
+    padding: 10px;
+}
+
+/* ** Section1 CSS ** */
+
+#Section1 p.img-text {
+    padding: 0px 0px 20px 20px;
+    font-style: italic;
+}
+#Section1 p.lettered {
+    padding: 42px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#Section1 p.date {
+    padding: 0px 0px 30px 20px;
+    font-size: 10px;
+    font-style: italic;
+}
+#Section1 p.numbered {
+    padding-top: 70px;
+    padding-bottom: 0px;
+    font-size: 27px;
+    font-weight: bold;
+}
+#Section1 p.indented {
+    padding: 12px 20px 8px 40px;
+}
+#Section1 p.indented-bullet {
+    padding: 3px 20px 3px 60px;
+}
+#Section1 p.date-indented {
+    padding: 0px 0px 28px 40px;
+    font-size: 10px;
+    font-style: italic;
+}
+#Section1 a {
+    display: inline-block;
+}
+#Section1 a.image {
+    padding: 40px 20px 10px;
+    text-decoration: none;
+    color: inherit;
+    width: 25%;
+}
+#Section1 a.image img {
+    width: 100%;
+}
+#Section1 a.image p {
+    width: 100%;
+    text-align: center;
+}
+
+p.bold {
+ font-weight: 700; 
+}
+
+/* ** Holiday Table CSS ** */
+
+.hor-minimalist-b {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    background: #fff;
+    width: 90%;
+    max-width: 480px;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 20px;
+}
+.hor-minimalist-b th {
+    font-size: 14px;
+    font-weight: normal;
+    color: #C13333;
+    border-bottom: 2px solid #cc0000;
+    padding: 10px 8px;
+}
+.hor-minimalist-b caption {
+    font-size: 16px;
+    font-weight: bold;
+    color: #C13333;
+    padding: 10px 8px;
+}
+.hor-minimalist-b td {
+    border-bottom: 1px solid #ffcccc;
+    color: #ff3232;
+    padding: 6px 8px;
+}
+.hor-minimalist-b tbody tr:hover td {
+    color: #B20000;
+}
